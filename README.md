@@ -2,7 +2,7 @@
 
 [![Downloads](https://img.shields.io/github/downloads/JohnnKim/discordwiper/total.svg)](https://github.com/JohnnKim/discordwiper/releases)
 [![Repo Size](https://img.shields.io/github/repo-size/JohnnKim/discordwiper.svg)](https://github.com/JohnnKim/discordwiper)
-[![License](https://img.shields.io/github/license/JohnnKim/discordwiper.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An admin Discord bot for managing, purging, and auto-deleting messages across channels. Includes scheduled nukes, message backups, and an slash command help menu.
 
