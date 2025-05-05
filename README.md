@@ -56,17 +56,19 @@ For full functionality, you can enable Administrator perms but use only if you t
 
 ---
 
-## Running the Bot
+## Setup & Running the Bot
 
-1. Replace `bot.run('BOT TOKEN HERE')` with your actual bot token
-2. Run: python wipe.py
-3. Invite the bot with an OAuth2 link that includes the correct permissions
+1. Create a `.env` file in the root folder of your project:
 
----
+```
+DISCORD_TOKEN=your-bot-token-here
+```
 
-## Admin Only
+2. Run the bot, locally:
 
-All commands are protected so that only users with the administrator permission can use the features.
+```bash
+python wipe.py
+```
 
 ---
 

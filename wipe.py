@@ -4,6 +4,8 @@ from discord import app_commands, Interaction, ui
 import asyncio
 from collections import defaultdict
 from datetime import datetime
+from dotenv import load_dotenv
+import os
 
 # BOT SETUP
 intents = discord.Intents.default()
@@ -239,5 +241,6 @@ async def slash_help(interaction: discord.Interaction):
     )
     await interaction.response.send_message(embed=embed, view=HelpView(), ephemeral=True)
 
-#  RUN THE BOT 
-bot.run('BOT TOKEN HERE')
+if __name__ == "__main__":
+    load_dotenv()
+    bot.run(os.getenv("DISCORD_TOKEN"))
