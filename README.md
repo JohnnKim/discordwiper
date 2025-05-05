@@ -4,7 +4,7 @@
 [![Repo Size](https://img.shields.io/github/repo-size/JohnnKim/discordwiper.svg)](https://github.com/JohnnKim/discordwiper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An admin Discord bot for managing, purging, and auto-deleting messages across channels. Includes scheduled nukes, message backups, and an slash command help menu.
+An admin Discord bot for managing, purging, and auto-deleting messages across channels. Includes scheduled nukes, message backups, and a slash command help menu.
 
 Quick Disclaimer:
 This script will utilize the Discord Bot Token. Do NOT share this token, or any .env files that contain client secrets. 
